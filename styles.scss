@@ -1,6 +1,12 @@
-$primary: darkblue;
+$primary: rgb(9, 9, 83);
 $shadow: gray;
 
+body {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+}
 header {
   display: flex;
   flex-direction: row;
@@ -19,12 +25,31 @@ header {
   }
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #proyectos {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   article {
     border: 1px solid $shadow;
+    border-radius: 15px;
     box-shadow: 5px 5px $shadow;
+    text-align: center;
+    padding: 10px;
   }
+}
+
+footer {
+  margin-top: 40px;
+  background-color: $primary;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }

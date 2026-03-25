@@ -1,7 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 header {
   display: flex;
   flex-direction: row;
-  background-color: darkblue;
+  background-color: rgb(9, 9, 83);
   color: white;
   justify-content: space-between;
   align-items: center;
@@ -14,14 +20,33 @@ header nav ul {
   gap: 30px;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #proyectos {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 #proyectos article {
   border: 1px solid gray;
+  border-radius: 15px;
   box-shadow: 5px 5px gray;
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: rgb(9, 9, 83);
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */
