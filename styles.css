@@ -14,4 +14,14 @@ header nav ul {
   gap: 30px;
 }
 
+#proyectos {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+#proyectos article {
+  border: 1px solid gray;
+  box-shadow: 5px 5px gray;
+}
+
 /*# sourceMappingURL=styles.css.map */
